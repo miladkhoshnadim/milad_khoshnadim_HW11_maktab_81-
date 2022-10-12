@@ -1,0 +1,60 @@
+.main {
+    background-color: aqua;
+    width: 350px;
+    margin: 10px auto;
+    border: 2px solid rgb(119, 115, 115);
+}
+
+.head {
+    text-align: center;
+}
+
+.section1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.select {
+    padding: 10px 5px 20px;
+}
+
+.label {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.Rectangel {
+    margin: 50px;
+
+}
+
+.square {
+    margin: 50px;
+    display: none;
+}
+
+.Circel {
+    margin: 50px;
+    display: none;
+}
+
+.Cylandrical {
+    margin: 50px;
+    display: none;
+}
+
+.output {
+    margin: 30px;
+}
+
+.button {
+    background-color: rgb(245, 241, 7);
+    margin-left: 140px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.section2 {
+    padding: 10px;
+
+}

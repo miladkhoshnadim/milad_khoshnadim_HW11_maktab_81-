@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hw11-p7.css">
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <div class="head">
+                <h3>Calculate Area and Perimeter</h3>
+                <!-- <span>please choose a shape</span> -->
+            </div>
+            <section class="section1">
+                <div class="select">
+                    <label for="Shapes">Shape :</label>
+                    <select name="Shapes" id="selectbox">
+                        <option value="Rectangel">Rectangel</option>
+                        <option value="square">square</option>
+                        <option value="Circel">Circel</option>
+                        <option value="Cylandrical">Cylandrical</option>
+                    </select>
+                </div>
+                <div class="Rectangel" id="Rectangel">
+                    <label class="label" for="">Width:
+                        <input id="inputRectangel" type="number"></label>
+                    <label class="label" for="">Lengs :
+                        <input id="inputRectangel" type="number" ></label>
+                </div>
+                <div class="square" id="square">
+                    <label class="label" for="">Width:
+                        <input id="inputsquare" type="number" ></label>
+                </div>
+                <div class="Circel" id="Circel">
+                    <label class="label" for="">Radius :
+                        <input id="inputCircel" type="number" ></label>
+                </div>
+                <div class="Cylandrical" id="Cylandrical">
+                    <label class="label" for="">Radius :
+                        <input id="inputCylandrical" type="number"></label>
+                    <label class="label" for="">Hight :
+                        <input id="inputCylandrical" type="number" ></label>
+                </div>
+                <button class="button" id="button">Calculat</button>
+            </section>
+            <section class="section2">
+                <div class="output">
+                    <label class="label" for="">Area :
+                        <input id="Area" type="number"></label>
+                    <label class="label" for="">Perimeter :
+                        <input id="Perimeter" type="number"></label>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="hw11-p7.js"></script>
+</body>
+
+</html>

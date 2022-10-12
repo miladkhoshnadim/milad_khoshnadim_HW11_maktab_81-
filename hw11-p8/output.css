@@ -1,0 +1,366 @@
+@media (max-width: 1366px) {
+  main section {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+  }
+  .P1Left {
+    background-color: rgb(236, 210, 176);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 450px;
+    left: 0px;
+    transition-property: left;
+  }
+  .P2Left {
+    background-color: rgb(233, 73, 126);
+    color: azure;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    left: 0px;
+    transition-property: left;
+  }
+  .Sign {
+    font-size: 30px;
+  }
+  .P1Right {
+    background-color: rgb(233, 73, 126);
+    color: azure;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 450px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: 0px;
+    transition-property: right;
+  }
+  .P2Right {
+    background-color: rgb(236, 210, 176);
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 450px;
+    border-top-Right-radius: 10px;
+    border-bottom-Right-radius: 10px;
+    Right: 0px;
+    transition-property: Right;
+  }
+  .hiden {
+    display: none;
+  }
+  .toRight {
+    left: 400px;
+  }
+  .toLeft {
+    right: 400px;
+  }
+  img {
+    margin: 5px 10px 30px 10px;
+    border-radius: 20px;
+  }
+  .spanAccount {
+    margin: 20px;
+  }
+  input {
+    width: 250px;
+    height: 30px;
+    display: block;
+    margin: 20px 0px 20px 70px;
+    border: none;
+    border-radius: 5px;
+  }
+  .buttonIn {
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    padding: 10px 50px;
+    background-color: rgb(240, 58, 164);
+    margin: 20px;
+    border-radius: 20px;
+    border-color: black;
+    cursor: pointer;
+  }
+  .hello {
+    margin: 110px 0px 0px;
+    font-size: 35px;
+  }
+  .buttonUp {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    padding: 10px 50px;
+    background-color: rgb(233, 73, 126);
+    margin: 20px;
+    border-radius: 20px;
+    border-color: hwb(0 91% 5%);
+  }
+  .spanPersonel {
+    margin: 20px 60px;
+  }
+}
+@media (max-width: 768px) {
+  main section {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+  }
+  .P1Left {
+    background-color: rgb(236, 210, 176);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 400px;
+    left: 0px;
+    transition-property: left;
+  }
+  .P2Left {
+    background-color: rgb(233, 73, 126);
+    color: azure;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    left: 0px;
+    transition-property: left;
+  }
+  .Sign {
+    font-size: 25px;
+  }
+  .P1Right {
+    background-color: rgb(233, 73, 126);
+    color: azure;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 400px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: 0px;
+    transition-property: right;
+  }
+  .P2Right {
+    background-color: rgb(236, 210, 176);
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    height: 400px;
+    border-top-Right-radius: 10px;
+    border-bottom-Right-radius: 10px;
+    Right: 0px;
+    transition-property: Right;
+  }
+  .hiden {
+    display: none;
+  }
+  .toRight {
+    left: 300px;
+  }
+  .toLeft {
+    right: 300px;
+  }
+  img {
+    margin: 3px 7px 15px 7px;
+    border-radius: 20px;
+  }
+  .spanAccount {
+    margin: 15px;
+  }
+  input {
+    width: 200px;
+    height: 25px;
+    display: block;
+    margin: 20px 0px 20px 50px;
+    border: none;
+    border-radius: 5px;
+  }
+  .buttonIn {
+    font-weight: bold;
+    font-size: 18px;
+    color: azure;
+    padding: 8px 30px;
+    background-color: rgb(240, 58, 164);
+    margin: 10px;
+    border-radius: 20px;
+    border-color: black;
+    cursor: pointer;
+  }
+  .hello {
+    margin: 100px 0px 0px;
+    font-size: 35px;
+  }
+  .buttonUp {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: azure;
+    padding: 8px 30px;
+    background-color: rgb(233, 73, 126);
+    margin: 10px;
+    border-radius: 20px;
+    border-color: hwb(0 91% 5%);
+  }
+  .spanPersonel {
+    margin: 15px 50px;
+  }
+}
+@media (max-width: 550px) {
+  main section {
+    width: 350px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .P1Left {
+    background-color: rgb(236, 210, 176);
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    top: 0px;
+    transition-property: top;
+  }
+  .P2Left {
+    background-color: rgb(233, 73, 126);
+    color: azure;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    top: 0px;
+    transition-property: top;
+  }
+  .Sign {
+    font-size: 30px;
+  }
+  .P1Right {
+    background-color: rgb(233, 73, 126);
+    color: azure;
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    bottom: 0px;
+    transition-property: bottom;
+  }
+  .P2Right {
+    background-color: rgb(236, 210, 176);
+    flex: 1;
+    box-shadow: DarkGray 2px 5px 19px 0px;
+    text-align: center;
+    position: relative;
+    transition-duration: 4s;
+    transition-delay: 0.2s;
+    border-bottom-left-radius: 10px;
+    border-bottom-Right-radius: 10px;
+    bottom: 0px;
+    transition-property: bottom;
+  }
+  .hiden {
+    display: none;
+  }
+  .toRight {
+    left: 0px;
+    top: 300px;
+  }
+  .toLeft {
+    left: 0px;
+    bottom: 300px;
+  }
+  img {
+    margin: 0px 5px 0px 6px;
+    border-radius: 20px;
+  }
+  .spanAccount {
+    margin: 10px;
+  }
+  input {
+    width: 250px;
+    height: 30px;
+    display: block;
+    margin: 10px 0px 10px 50px;
+    border: none;
+    border-radius: 5px;
+  }
+  .buttonIn {
+    font-weight: bold;
+    font-size: 15px;
+    color: azure;
+    padding: 6px 30px;
+    background-color: rgb(240, 58, 164);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border-color: black;
+    cursor: pointer;
+  }
+  .hello {
+    margin: 50px 0px 0px;
+    font-size: 25px;
+  }
+  .buttonUp {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    color: azure;
+    padding: 6px 30px;
+    background-color: rgb(233, 73, 126);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border-color: hwb(0 91% 5%);
+  }
+  .spanPersonel {
+    margin: 5px 60px;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */

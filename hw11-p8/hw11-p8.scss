@@ -1,0 +1,391 @@
+$breakpoint-mydesktap: 1366px;
+
+@media (max-width: $breakpoint-mydesktap) {
+
+    @mixin buttons ($theme: rgb(240, 58, 164), $border: black) {
+        font-weight: bold;
+        font-size: 20px;
+        color: azure;
+        padding: 10px 50px;
+        background-color: $theme;
+        margin: 20px;
+        border-radius: 20px;
+        border-color: $border;
+    }
+
+    @mixin twopage () {
+        flex: 1;
+        box-shadow: DarkGray 2px 5px 19px 0px;
+        text-align: center;
+        position: relative;
+        transition-duration: 4s;
+        transition-delay: 0.2s;
+        height: 450px;
+    }
+
+    main {
+        section {
+            width: 800px;
+            margin: 50px auto;
+            display: flex;
+        }
+    }
+
+    .P1Left {
+        background-color: rgb(236, 210, 176);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        @include twopage;
+        left: 0px;
+        transition-property: left;
+    }
+
+    .P2Left {
+        background-color: rgb(233, 73, 126);
+        color: azure;
+        @include twopage;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        left: 0px;
+        transition-property: left;
+    }
+
+    .Sign {
+        font-size: 30px;
+    }
+
+    .P1Right {
+
+        background-color: rgb(233, 73, 126);
+        color: azure;
+        @include twopage;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        right: 0px;
+        transition-property: right;
+    }
+
+    .P2Right {
+        background-color: rgb(236, 210, 176);
+        @include twopage;
+        border-top-Right-radius: 10px;
+        border-bottom-Right-radius: 10px;
+        Right: 0px;
+        transition-property: Right;
+    }
+
+    .hiden {
+        display: none;
+    }
+
+    .toRight {
+        left: 400px;
+    }
+
+    .toLeft {
+        right: 400px;
+    }
+
+    img {
+        margin: 5px 10px 30px 10px;
+        border-radius: 20px;
+    }
+
+    .spanAccount {
+        margin: 20px;
+    }
+
+    input {
+        width: 250px;
+        height: 30px;
+        display: block;
+        margin: 20px 0px 20px 70px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .buttonIn {
+        @include buttons;
+        cursor: pointer;
+    }
+
+    .hello {
+        margin: 110px 0px 0px;
+        font-size: 35px;
+
+    }
+
+    .buttonUp {
+        cursor: pointer;
+        @include buttons($theme: rgb(233, 73, 126), $border: hwb(0 91% 5%));
+    }
+
+    .spanPersonel {
+        margin: 20px 60px;
+    }
+}
+
+
+//////////////////////////////////////////////////tablet
+
+
+
+
+$breakpoint-tablet: 768px;
+
+@media (max-width: $breakpoint-tablet) {
+
+    @mixin buttons ($theme: rgb(240, 58, 164), $border: black) {
+        font-weight: bold;
+        font-size: 18px;
+        color: azure;
+        padding: 8px 30px;
+        background-color: $theme;
+        margin: 10px;
+        border-radius: 20px;
+        border-color: $border;
+    }
+
+    @mixin twopage () {
+        flex: 1;
+        box-shadow: DarkGray 2px 5px 19px 0px;
+        text-align: center;
+        position: relative;
+        transition-duration: 4s;
+        transition-delay: 0.2s;
+        height: 400px;
+    }
+
+    main {
+        section {
+            width: 600px;
+            margin: 50px auto;
+            display: flex;
+        }
+    }
+
+    .P1Left {
+        background-color: rgb(236, 210, 176);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        @include twopage;
+        left: 0px;
+        transition-property: left;
+    }
+
+    .P2Left {
+        background-color: rgb(233, 73, 126);
+        color: azure;
+        @include twopage;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        left: 0px;
+        transition-property: left;
+    }
+
+    .Sign {
+        font-size: 25px;
+    }
+
+    .P1Right {
+        background-color: rgb(233, 73, 126);
+        color: azure;
+        @include twopage;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        right: 0px;
+        transition-property: right;
+    }
+
+    .P2Right {
+        background-color: rgb(236, 210, 176);
+        @include twopage;
+        border-top-Right-radius: 10px;
+        border-bottom-Right-radius: 10px;
+        Right: 0px;
+        transition-property: Right;
+    }
+
+    .hiden {
+        display: none;
+    }
+
+    .toRight {
+        left: 300px;
+    }
+
+    .toLeft {
+        right: 300px;
+    }
+
+    img {
+        margin: 3px 7px 15px 7px;
+        border-radius: 20px;
+    }
+
+    .spanAccount {
+        margin: 15px;
+    }
+
+    input {
+        width: 200px;
+        height: 25px;
+        display: block;
+        margin: 20px 0px 20px 50px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .buttonIn {
+        @include buttons;
+        cursor: pointer;
+    }
+
+    .hello {
+        margin: 100px 0px 0px;
+        font-size: 35px;
+
+    }
+
+    .buttonUp {
+        cursor: pointer;
+        @include buttons($theme: rgb(233, 73, 126), $border: hwb(0 91% 5%));
+    }
+
+    .spanPersonel {
+        margin: 15px 50px;
+    }
+}
+
+
+/////////////////////////////////////mobail
+
+
+$breakpoint-mobail: 550px;
+
+@media (max-width: $breakpoint-mobail) {
+
+    @mixin buttons ($theme: rgb(240, 58, 164), $border: black) {
+        font-weight: bold;
+        font-size: 15px;
+        color: azure;
+        padding: 6px 30px;
+        background-color: $theme;
+        // margin: 10 10px 30px 10px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        border-color: $border;
+    }
+
+    @mixin twopage () {
+        flex: 1;
+        box-shadow: DarkGray 2px 5px 19px 0px;
+        text-align: center;
+        position: relative;
+        transition-duration: 4s;
+        transition-delay: 0.2s;
+    }
+
+    main {
+        section {
+            width: 350px;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .P1Left {
+        background-color: rgb(236, 210, 176);
+        @include twopage;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        top: 0px;
+        transition-property: top;
+    }
+
+    .P2Left {
+        background-color: rgb(233, 73, 126);
+        color: azure;
+        @include twopage;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        top: 0px;
+        transition-property: top;
+    }
+
+    .Sign {
+        font-size: 30px;
+    }
+
+    .P1Right {
+        background-color: rgb(233, 73, 126);
+        color: azure;
+        @include twopage;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        bottom: 0px;
+        transition-property: bottom;
+    }
+
+    .P2Right {
+        background-color: rgb(236, 210, 176);
+        @include twopage;
+        border-bottom-left-radius: 10px;
+        border-bottom-Right-radius: 10px;
+        bottom: 0px;
+        transition-property: bottom;
+    }
+
+    .hiden {
+        display: none;
+    }
+
+    .toRight {
+        left: 0px;
+        top: 300px;
+    }
+
+    .toLeft {
+        left: 0px;
+        bottom: 300px;
+    }
+
+    img {
+        margin: 0px 5px 0px 6px;
+        border-radius: 20px;
+    }
+
+    .spanAccount {
+        margin: 10px;
+    }
+
+    input {
+        width: 250px;
+        height: 30px;
+        display: block;
+        margin: 10px 0px 10px 50px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .buttonIn {
+        @include buttons;
+        cursor: pointer;
+    }
+
+    .hello {
+        margin: 50px 0px 0px;
+        font-size: 25px;
+    }
+
+    .buttonUp {
+        cursor: pointer;
+        @include buttons($theme: rgb(233, 73, 126), $border: hwb(0 91% 5%));
+    }
+
+    .spanPersonel {
+        margin: 5px 60px;
+    }
+}
